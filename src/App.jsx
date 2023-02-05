@@ -1,12 +1,16 @@
 
 import './App.css';
-import ArtList from './components/ArtList/ArtList';
+import About from './components/About/About';
+// import ArtList from './components/ArtList/ArtList';
 
 function App() {
   return (
     <div className="App">
-     <h1>Hello world</h1>
-     <ArtList/>
+   
+     {/* <ArtList/> */}
+
+     <About/>
+     
     </div>
   );
 }
