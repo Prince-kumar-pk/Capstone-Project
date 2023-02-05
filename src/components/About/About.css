@@ -54,8 +54,8 @@
 }
 
 .btnloader:hover {
-    background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    background-color: #bcc1bf;
+    box-shadow: 0px 15px 20px rgb(148 152 150 / 40%);
     color: #fff;
     transform: translateY(-7px);
   }

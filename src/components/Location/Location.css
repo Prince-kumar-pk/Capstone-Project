@@ -1,0 +1,41 @@
+.container-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+}
+
+.location-details{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 40%;
+    /* margin-left: 10px; */
+
+}
+.map{
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.map iframe{
+    height: 90%;
+}
+.tag{
+    color: burlywood;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 40px;
+}
+
+.heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+}

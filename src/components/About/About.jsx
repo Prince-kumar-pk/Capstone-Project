@@ -4,6 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About Us</h1>
+      <hr />
     <div className="container-wraper">
       <div className="details">
         <span className="tag">Art store Gallery</span>
