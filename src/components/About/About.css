@@ -5,6 +5,11 @@
     flex-wrap: wrap;
     /* border: 2px solid rgb(97, 96, 96); */
 }
+hr{
+    height: 1px;
+    color: #868181;
+    background-color: #c3c0c0;
+}
 .details{
     height: 50vh;
     /* border: 2px solid red; */
@@ -25,7 +30,7 @@
 .disc{
     width: 500px;
 }
-.img{
+.img-about{
     height: 50vh;
     /* border: 2px solid red; */
     width: 40%;

@@ -5,8 +5,8 @@ export default function Location() {
   return (
     <div>
       <hr />
-      <hr />
       <h1>Find Me</h1>
+      <hr />
       <div className="container-wrap">
       <div className="location-details">
         <span className="tag">Art store Location</span>

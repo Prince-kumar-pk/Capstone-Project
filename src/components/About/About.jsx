@@ -5,6 +5,7 @@ export default function About() {
     <div>
       <h1>About Us</h1>
       <hr />
+      <br />
     <div className="container-wraper">
       <div className="details">
         <span className="tag">Art store Gallery</span>
@@ -14,7 +15,7 @@ export default function About() {
         <button className="btnloader">Load More....</button>
       </div>
       </div>
-      <div className="img">
+      <div className="img-about">
         <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" />
       </div>
     </div>

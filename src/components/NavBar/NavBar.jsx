@@ -1,5 +1,6 @@
 import { faPalette } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 import React from 'react'
 import './NavBar.css'
 
@@ -16,11 +17,11 @@ export default function NavBar() {
     </div>
 
     <ul id="menu">
-      <li><a href="/home">Home</a></li>
-   <li><a href="/services">About</a></li>
-   <li><a href="/about">Art List</a></li>
-   <li><a href="/services">Gallary</a></li>
-   <li><a href="/contact">Location</a></li>
+      <li><Link to="/home">Home</Link></li>
+   <li><Link to="/about">About</Link></li>
+   <li><Link to="/artlist">Art List</Link></li>
+   <li><Link to="/gallery">Gallary</Link></li>
+   <li><Link to="/location">Location</Link></li>
     </ul>
   </div>
 </nav>
@@ -32,11 +33,11 @@ export default function NavBar() {
 
 <div class="overlay-menu">
   <ul id="menu">
-  <li><a href="/home">Home</a></li>
-   <li><a href="/services">About</a></li>
-   <li><a href="/about">Art List</a></li>
-   <li><a href="/services">Gallary</a></li>
-   <li><a href="/contact">Location</a></li>
+  <li><Link to="/home">Home</Link></li>
+   <li><Link to="/about">About</Link></li>
+   <li><Link to="/artlist">Art List</Link></li>
+   <li><Link to="/gallery">Gallary</Link></li>
+   <li><Link to="/location">Location</Link></li>
     </ul>
 </div>
     </div>
