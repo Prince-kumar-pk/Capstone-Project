@@ -19,10 +19,13 @@ export default function NavBar() {
     <ul id="menu">
       <li><Link to="/home">Home</Link></li>
    <li><Link to="/about">About</Link></li>
-   <li><Link to="/artlist">Art List</Link></li>
+   <li><Link to="/artlist">Buy item</Link></li>
    <li><Link to="/gallery">Gallary</Link></li>
    <li><Link to="/location">Location</Link></li>
     </ul>
+    {/* <div>
+cart
+    </div> */}
   </div>
 </nav>
 

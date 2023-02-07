@@ -10,7 +10,7 @@ export default function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://jssors8.azureedge.net/demos/image-slider/img/px-beach-daylight-fun-1430675-image.jpg"
+          src="https://source.unsplash.com/600x300/?art"
           alt="First slide"
         />
         <Carousel.Caption>
@@ -21,7 +21,7 @@ export default function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://jssors8.azureedge.net/demos/image-slider/img/px-beach-daylight-fun-1430675-image.jpg"
+          src="https://source.unsplash.com/600x300/?statue"
           alt="Second slide"
         />
 
@@ -33,7 +33,7 @@ export default function Slider() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://jssors8.azureedge.net/demos/image-slider/img/px-beach-daylight-fun-1430675-image.jpg"
+          src="https://source.unsplash.com/600x300/?painting"
           alt="Third slide"
         />
 

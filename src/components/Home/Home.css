@@ -1,0 +1,8 @@
+.down-scrol{
+width: 100px;
+height: 100px;
+background-image: url('../../acets/downarrow.gif');
+background-size: cover;
+align-items: center;
+margin: auto;
+}
