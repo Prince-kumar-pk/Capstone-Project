@@ -13,6 +13,20 @@ import {
 export default function Footer() {
   return (
     <MDBFooter className='bg-light text-center text-white'>
+<div className="container">
+
+<h1 className= "text-primary">Contact </h1> 
+<h2>Leave Your message here</h2>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email </label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Id"/>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<button type="button" class="btn btn-outline-secondary text-primary">Send</button>
+</div>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn

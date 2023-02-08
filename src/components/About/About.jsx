@@ -37,7 +37,7 @@ export default function About() {
   </div>
 
   <div className="img-profile pt-3 mt-3 ">
-    <img src="https://media.licdn.com/dms/image/D4D03AQEEsMRnr3RdIw/profile-displayphoto-shrink_400_400/0/1673983238034?e=1681344000&v=beta&t=n7HF62S0KjJAhODtiFGuBnevdctTt5APwMGJM-ePbTc" alt="" />
+    <img  src="https://media.licdn.com/dms/image/D4D03AQEEsMRnr3RdIw/profile-displayphoto-shrink_400_400/0/1673983238034?e=1681344000&v=beta&t=n7HF62S0KjJAhODtiFGuBnevdctTt5APwMGJM-ePbTc" alt="" />
   
   </div>
 </div>

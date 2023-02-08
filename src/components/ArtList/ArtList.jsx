@@ -1,12 +1,12 @@
 import React from 'react'
 // import './ArtList.css'
-import Data from '../Detaildata/detaildata'
+// import Data from '../Detaildata/detaildata'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSoap } from '@fortawesome/free-solid-svg-icons';
 
-export default function ArtList() {
+export default function ArtList({productdata, addToCart}) {
   return (
     <>
     <span class="tag">Our LookOut</span>
@@ -15,7 +15,7 @@ export default function ArtList() {
 
     <div className="d-flex flex-row justify-content-center align-items-center flex-wrap flex-fill ">
 
-      {Data.map((item) => {
+      {productdata.map((item) => {
         return(
           <Card style={{ width: '18rem' }}  className=" mx-3 mr-2 mb-3">
           <Card.Img variant="top" src={item.img}/>
@@ -24,7 +24,7 @@ export default function ArtList() {
             <Card.Text>
               {item.discription}
             </Card.Text>
-            <Button variant="primary">₹ {item.price} <FontAwesomeIcon icon={faSoap}/></Button>
+            <Button variant="primary" onClick={()=>addToCart(item) }>₹ {item.price} <FontAwesomeIcon icon={faSoap}/></Button>
           </Card.Body>
         </Card>
         )

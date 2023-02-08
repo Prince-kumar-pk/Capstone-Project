@@ -23,10 +23,12 @@ export default function NavBar() {
    <li><Link to="/gallery">Gallary</Link></li>
    <li><Link to="/location">Location</Link></li>
     </ul>
-    {/* <div>
-cart
-    </div> */}
+    
   </div>
+
+  <Link to='/cart' className='cart'>
+<i className='fas fa-shopping-cart'/>
+    </Link>
 </nav>
 
 <div class="menuIcon">
