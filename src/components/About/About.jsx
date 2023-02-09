@@ -9,8 +9,8 @@ export default function About() {
     <div className="container-wraper">
       <div className="details">
         <span className="tag">Art store Gallery</span>
-        <h1>Heading</h1>
-        <div className="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat neque harum minima repellendus. Distinctio eligendi in facere consequuntur! Voluptatum!</div>
+        <h1>Art Store</h1>
+        <div className="disc">An art store is a retail establishment that sells supplies, tools, and materials for artists and creative enthusiasts. Art stores cater to a wide range of customers, from professional artists and students to hobbyists and DIY-enthusiasts. They offer a wide variety of products, including paint, canvas, brushes, pens, paper, and other supplies.</div>
         <div className="btn-load">
         <button className="btnloader">Load More....</button>
       </div>
@@ -33,7 +33,8 @@ export default function About() {
 
   <div className="profile-detail">
   <h1>Prince Kumar</h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere aut sunt delectus laudantium laborum laboriosam quaerat harum quae quidem itaque, autem ratione accusamus. Quidem consequatur neque, unde dicta repudiandae iste sequi cumque, iure veniam magnam ratione! Incidunt perspiciatis molestiae ipsum.
+  I am a Frontend Web Developer  and currently pursuing B.Tech in Computer Science and Engineering at Lovely Professional University, Punjab (2020-2024). I am a very passionate and enthusiastic programmer who loves to write code.
+  As a highly motivated and experienced web developer, I bring a passion for technology and a commitment to creating intuitive and engaging user experiences. 
   </div>
 
   <div className="img-profile pt-3 mt-3 ">

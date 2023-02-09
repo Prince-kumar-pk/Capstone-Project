@@ -26,8 +26,8 @@ function App() {
   return (
     <div className="App">
      <Routes>
-      <Route path='/Capstone-Project' element={<Layout count = {cart.length} />}>
-      <Route path='/Capstone-Project' element={<Home/>}/>
+      <Route path='/' element={<Layout count = {cart.length} />}>
+      <Route path='/' element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/artlist' element={<ArtList  productdata = {Data}  addToCart ={addToCart} />}/>
