@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Capstone-Project/static/css/main.365dc88d.css",
+    "main.js": "/Capstone-Project/static/js/main.9b3f7867.js",
+    "static/js/787.8c36a2d7.chunk.js": "/Capstone-Project/static/js/787.8c36a2d7.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Capstone-Project/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/Capstone-Project/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/Capstone-Project/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/Capstone-Project/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/downarrow.gif": "/Capstone-Project/static/media/downarrow.69cb3537f88ae5864e5c.gif",
+    "static/media/fa-regular-400.ttf": "/Capstone-Project/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/Capstone-Project/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Capstone-Project/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Capstone-Project/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "index.html": "/Capstone-Project/index.html",
+    "main.365dc88d.css.map": "/Capstone-Project/static/css/main.365dc88d.css.map",
+    "main.9b3f7867.js.map": "/Capstone-Project/static/js/main.9b3f7867.js.map",
+    "787.8c36a2d7.chunk.js.map": "/Capstone-Project/static/js/787.8c36a2d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.365dc88d.css",
+    "static/js/main.9b3f7867.js"
+  ]
+}
