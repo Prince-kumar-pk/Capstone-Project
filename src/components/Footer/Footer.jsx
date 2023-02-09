@@ -32,8 +32,8 @@ export default function Footer() {
           <MDBBtn
             floating
             className='m-1'
-            style={{ backgroundColor: '#3b5998' }}
-            href='#!'
+            // style={{ backgroundColor: '#3b5998' }}
+            href='#/'
             role='button'
           >
             <MDBIcon fab icon='facebook-f' />
@@ -42,8 +42,8 @@ export default function Footer() {
           <MDBBtn
             floating
             className='m-1'
-            style={{ backgroundColor: '#55acee' }}
-            href='#!'
+            // style={{ backgroundColor: '#55acee' }}
+            href='#/'
             role='button'
           >
             <MDBIcon fab icon='twitter' />
@@ -52,17 +52,17 @@ export default function Footer() {
           <MDBBtn
             floating
             className='m-1'
-            style={{ backgroundColor: '#dd4b39' }}
-            href='#!'
+            // style={{ backgroundColor: '#dd4b39' }}
+            href='#/'
             role='button'
           >
             <MDBIcon fab icon='google' />
           </MDBBtn>
           <MDBBtn
             floating
-            className='m-1'
-            style={{ backgroundColor: '#ac2bac' }}
-            href='#!'
+            className='m-1 bg-danger'
+            // style={{ backgroundColor: '#ac2bac' }}
+            href='#/'
             role='button'
           >
             <MDBIcon fab icon='instagram' />
@@ -71,8 +71,8 @@ export default function Footer() {
           <MDBBtn
             floating
             className='m-1'
-            style={{ backgroundColor: '#0082ca' }}
-            href='#!'
+            // style={{ backgroundColor: '#0082ca' }}
+            href='#/'
             role='button'
           >
             <MDBIcon fab icon='linkedin-in' />
@@ -80,9 +80,9 @@ export default function Footer() {
 
           <MDBBtn
             floating
-            className='m-1'
-            style={{ backgroundColor: '#333333' }}
-            href='#!'
+            className='m-1 bg-dark'
+            // style={{ backgroundColor: '#333333' }}
+            href='#/'
             role='button'
           >
             <MDBIcon fab icon='github' />
@@ -90,10 +90,12 @@ export default function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2020 Copyright:
+      <div className="text-center p-3  text-primary bg-secondary"
+      // style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}
+      >
+        © 2023 Copyright:
         <a className='text-white' href='https://mdbootstrap.com/'>
-          MDBootstrap.com
+         Art Store
         </a>
       </div>
     </MDBFooter>

@@ -16,7 +16,7 @@ export default function About() {
       </div>
       </div>
       <div className="img-about">
-        <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="" />
+        <img src="https://cdn.pixabay.com/photo/2016/11/23/00/37/art-1851483_960_720.jpg" alt="" />
       </div>
     </div>
 

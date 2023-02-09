@@ -22,7 +22,15 @@
     height: 20px;
     position: absolute;
     top: 0;
-    right: 10%;
+    right: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 19px;
+   
+    align-content: flex-start;
+    align-items: baseline;
 
   }
   /*Navbar*/

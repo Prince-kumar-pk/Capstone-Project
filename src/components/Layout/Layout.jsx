@@ -3,10 +3,10 @@ import './Layout.css'
 import { Outlet } from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
 
-export default function Layout() {
+export default function Layout({count}) {
   return (
     <div>
-        <NavBar/>
+        <NavBar  cartcount = {count} />
       <div className="outlet">
         <Outlet/>
       </div>

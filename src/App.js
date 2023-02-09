@@ -14,17 +14,19 @@ import { useState } from 'react';
 function App() {
 
   const [cart, setcart] = useState([])
+ 
 
   const addToCart = (itemdata) => {
     console.log(itemdata)
-    setcart([ ...cart , itemdata ])
+    setcart([ ...cart , { ...itemdata,  quantity : 1} ])
     console.log(cart)
+
   }
 
   return (
     <div className="App">
      <Routes>
-      <Route path='/' element={<Layout/>}>
+      <Route path='/' element={<Layout count = {cart.length} />}>
       <Route path='/' element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>

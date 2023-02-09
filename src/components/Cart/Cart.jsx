@@ -21,7 +21,7 @@ export default function Cart({cart}) {
             <p class="pl-1 mb-0">{item.discription}</p>
           </div>
           <div class="col-2"><button>  -</button>
-            <span class="cartItemQuantity p-1 text-center">5</span> <button>+</button>
+            <span class="cartItemQuantity p-1 text-center"> {item.quantity}</span> <button>+</button>
           </div> 
           <div class="col-2">   
             <span id="cartItem1Price">{item.price}</span>

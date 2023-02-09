@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import React from 'react'
 import './NavBar.css'
 
-export default function NavBar() {
+export default function NavBar(props) {
 
   return (
     <div>
@@ -25,10 +25,14 @@ export default function NavBar() {
     </ul>
     
   </div>
+<div className='cart'>
+   <Link to='/cart' >
+<i className='fas fa-shopping-cart'/> 
 
-  <Link to='/cart' className='cart'>
-<i className='fas fa-shopping-cart'/>
     </Link>
+    <sup>{props.cartcount}</sup>
+</div>
+ 
 </nav>
 
 <div class="menuIcon">
