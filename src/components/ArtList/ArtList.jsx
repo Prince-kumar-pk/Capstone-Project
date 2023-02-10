@@ -32,7 +32,7 @@ export default function ArtList({productdata, addToCart}) {
 
     </div>
 
-<h1>More Arts</h1>
+<h3>More Arts........</h3>
       
     </>
   )

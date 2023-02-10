@@ -39,6 +39,8 @@ function App() {
         </Route> 
      </Routes>
      </BrowserRouter>
+     <hr/>
+     <hr/>
      <Footer/>
     </div>
   );

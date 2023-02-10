@@ -20,7 +20,7 @@ export default function NavBar(props) {
       <li><Link to="/home">Home</Link></li>
    <li><Link to="/about">About</Link></li>
    <li><Link to="/artlist">Buy item</Link></li>
-   <li><Link to="/gallery">Gallary</Link></li>
+   <li><Link to="/gallery">Gallery</Link></li>
    <li><Link to="/location">Location</Link></li>
     </ul>
     
