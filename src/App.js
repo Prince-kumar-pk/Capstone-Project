@@ -26,16 +26,16 @@ function App() {
   return (
     <div className="App">
 
-      <BrowserRouter basename="/Capstone-Project">
+      <BrowserRouter >
      <Routes>
-      <Route path='/Capstone-Project' element={<Layout count = {cart.length} />}>
-      <Route path='/Capstone-Project' element={<Home/>}/>
-          <Route path='/Capstone-Project/home' element={<Home/>}/>
-          <Route path='/Capstone-Project/about' element={<About/>}/>
-          <Route path='/Capstone-Project/artlist' element={<ArtList  productdata = {Data}  addToCart ={addToCart} />}/>
-          <Route path='/Capstone-Project/gallery' element={<Gallery/>}/>
-          <Route path='/Capstone-Project/location' element={<Location/>}/>
-          <Route path='/Capstone-Project/cart' element={<Cart   cart = {cart}  />}/>
+      <Route path='/' element={<Layout count = {cart.length} />}>
+      <Route path='/' element={<Home/>}/>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/artlist' element={<ArtList  productdata = {Data}  addToCart ={addToCart} />}/>
+          <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/location' element={<Location/>}/>
+          <Route path='/cart' element={<Cart   cart = {cart}  />}/>
         </Route> 
      </Routes>
      </BrowserRouter>
