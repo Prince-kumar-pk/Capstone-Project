@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout/Layout';
 import About from './components/About/About';
@@ -25,9 +25,11 @@ function App() {
 
   return (
     <div className="App">
+
+      <BrowserRouter basename="/Capstone-Project">
      <Routes>
-      <Route path='/' element={<Layout count = {cart.length} />}>
-      <Route path='/' element={<Home/>}/>
+      <Route path='/Capstone-Project' element={<Layout count = {cart.length} />}>
+      <Route path='/Capstone-Project' element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/artlist' element={<ArtList  productdata = {Data}  addToCart ={addToCart} />}/>
@@ -36,6 +38,7 @@ function App() {
           <Route path='/cart' element={<Cart   cart = {cart}  />}/>
         </Route> 
      </Routes>
+     </BrowserRouter>
      <Footer/>
     </div>
   );
