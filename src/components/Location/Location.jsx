@@ -10,7 +10,7 @@ export default function Location() {
       <div className="container-wrap">
       <div className="location-details">
         <span className="tag">Art store Location</span>
-        <div className="heading">Find Me Here --- </div>
+        <div className="heading">Find Me Here  <span className="arrow">👉</span>  </div>
       
       </div>
       <div className="map">
